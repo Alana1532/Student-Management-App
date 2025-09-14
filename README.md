@@ -21,9 +21,9 @@ It allows to add, view, update, and delete student records.
 ## Setup Instructions
 
 1. Start MySQL Server
-Ensure MySQL server is running on:
-- **Host:** `localhost`
-- **Port:** `3306`
+-Ensure MySQL server is running on:
+  - **Host:** `localhost`
+  - **Port:** `3306`
 
 2. Update Database Credentials
 In `StudentManagementApp.java`, update these values according to your local MySQL setup:
@@ -32,7 +32,7 @@ private static final String USER = "root";              // Your MySQL username
 private static final String PASSWORD = "your_password"; // Your MySQL password
 ```
 3. Database Creation
-The program will automatically:
+-The program will automatically:
   - Create a database named studentdb (if not exists)
   - Create a table students (if not exists) with columns:
       - id
